@@ -25,7 +25,7 @@ export async function getBlogs(): Promise<Blog[]>{
    }
 
 
-export async function getBlog(slug : string): Promise<Blog[]>{
+export async function getBlog(slug : string): Promise<Blog>{
    return client.fetch(
       groq`*[_type == "blog" && slug.current == $slug][0]{
          _id,
