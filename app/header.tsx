@@ -7,6 +7,7 @@ import {
   NavbarContent,
   NavbarMenuToggle,
   NavbarMenu,
+  Link
 } from "@nextui-org/react";
 import MenuLinks from "./components/menuLinks";
 export default function App() {
@@ -20,7 +21,7 @@ export default function App() {
           className="sm:hidden"
         />
         <NavbarBrand className="px-3">
-          <p className="font-bold text-inherit">logo here</p>
+          <Link href="/">logo here</Link>
         </NavbarBrand>
       </NavbarContent>
 

@@ -1,8 +1,8 @@
 export default function Cookies(){
     return (
-        <section className="fixed max-w-md p-4 mx-auto bg-white border border-gray-200 dark:bg-gray-800 left-12 bottom-16 dark:border-gray-700 rounded-2xl">
+        <section className="fixed hidden max-w-md p-4 mx-auto bg-white border border-gray-200 dark:bg-gray-800 left-12 bottom-16 dark:border-gray-700 rounded-2xl">
         <h2 className="font-semibold text-gray-800 dark:text-white">🍪 Cookie Notice</h2>
-    
+        
         <p className="mt-4 text-sm text-gray-600 dark:text-gray-300">We use cookies to ensure that we give you the best experience on our website. <a href="#" className="text-blue-500 hover:underline">Read cookies policies</a>. </p>
         
         <div className="flex items-center justify-between mt-4 gap-x-4 shrink-0">
