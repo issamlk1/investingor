@@ -4,8 +4,8 @@ import schemes from "./sanity/schemes";
 
 
 const config = defineConfig({
-    projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID,
-    dataset: process.env.NEXT_PUBLIC_SANITY_DATASET,
+    projectId: "787xfjrm",
+    dataset: "production",
     title:  process.env.NEXT_PUBLIC_SANITY_TITLE,
     apiVersion:  process.env.NEXT_PUBLIC_SANITY_API_VERSION,
     basePath: '/cc',

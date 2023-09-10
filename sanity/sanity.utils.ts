@@ -7,7 +7,7 @@ const client = createClient({
    apiVersion:  process.env.NEXT_PUBLIC_SANITY_API_VERSION,
 });
 
-export async function getBlogs(): Promise<Blog>{
+export async function getBlogs(): Promise<Blog[]>{
    return client.fetch(
       groq`*[_type == "blog"]{
          _id,
