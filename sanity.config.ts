@@ -6,8 +6,8 @@ import schemes from "./sanity/schemes";
 const config = defineConfig({
     projectId: "787xfjrm",
     dataset: "production",
-    title:  process.env.NEXT_PUBLIC_SANITY_TITLE,
-    apiVersion:  process.env.NEXT_PUBLIC_SANITY_API_VERSION,
+    title:  "investing_tips",
+    apiVersion:  "2023-09-06",
     basePath: '/cc',
     plugins: [deskTool()],
     schema: {types:schemes},
